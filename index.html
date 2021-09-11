@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title> Photo Gallery </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#section1">Home</li>
+        <li class="links"><a href="#section2">Grid Gallery</li>
+        <li class="links"><a href="#section3">Sliding Gallery</li>
+    </ul>
+
+    <section id="section1">
+        <h1 id="textphotogallery">Photo Gallery</h1>
+        <div class="line"> </div>
+        <br> <br>
+        <img src="image2.png" class="profile">
+    </section>
+
+    <div class="container">
+        <hr style="width: 100%;">
+        <section id="section2">
+            <h1> Grid Gallery </h1>
+            <div class="line"> </div>
+            <br>
+            <script src=""></script>
+            <div class="row">
+                <img class="img2" src="1.png">
+                <img class="img2" src="2.png">
+                <img class="img2" src="3.png">
+                <img class="img2" src="4.png">
+            </div>
+        </section>
+        <br>
+        <br>
+        <hr style="width: 100%;">
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"> </span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"> </span>
+        </a>
+        <section id="section3">
+            <h1> Sliding Gallery </h1>
+            <div class="line"> </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img class="img-responsive" src="1.png" style="width:100%;">
+                    </div>
+                    <div class="item active">
+                        <img class="img-responsive" src="2.png" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="3.png" style="width:100%;">
+                    </div>
+                    <div class="item active">
+                        <img class="img-responsive" src="4.png" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="5.png" style="width:100%;">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"> </span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"> </span>
+                    <span class=""> </span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
